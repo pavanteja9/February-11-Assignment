@@ -1,0 +1,38 @@
+program for if elif statement
+Sno=int(input('enter sno'))
+Sname=input('enter name')
+S1=int(input('s1 marks'))
+S2=int(input('s2 marks'))
+S3=int(input('s3 marks'))
+S4=int(input('s4 marks'))
+S5=int(input('s5 marks'))
+S6=int(input('s6 marks'))
+total=S1+S2+S3+S4+S5+S6
+avg=total/3
+if avg>=91:
+   Print('O-grade')
+elif avg>=81:
+   Print('A-grade')
+elif avg>=71:
+   Print('B-grade')
+elif avg>=60:
+   Print('c-grade')
+elif avg>=50:
+   Print('D-grade')
+elif avg>=40:
+   Print('pass')
+else:
+   Print('fail')
+   
+output-
+enter sno1
+enter snamevalli
+s1marks50
+S2marks60
+S3marks55
+S4marks70
+S5marks85
+S6marks75
+total395
+avg65
+c-grade
